@@ -4,5 +4,5 @@ services:
     image: frooodle/s-pdf:latest
     restart: always
     container_name: Stirling_Container
-  Ports:
+  ports:
     - 8080:8080
